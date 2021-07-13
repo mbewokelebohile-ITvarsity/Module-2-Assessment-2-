@@ -2,6 +2,11 @@ body{
     padding: 0;
     margin: 0;
     font-family: helvetica;
+    background-image: url(images/blurred-image-people-trade-show-wood-table-shopping-mall-background-usage-61543184.jpg);
+
+}
+p{
+    font-style: italic
 }
 /*========== HEADER =========*/
 #header{
@@ -11,7 +16,7 @@ body{
     z-index: 500;
     width: 100%;
     height: 80px;
-    background-image: url(images/wood-bg.png);
+    background-image: url(images/yellow.jpg);
     background-position: repeat-x;
     padding-bottom: 8px;
     text-align: center;
@@ -32,7 +37,8 @@ body{
     z-index: 500;
     width: 100%;
     height: 35px;
-    background-color:brown
+    background-color:black
+    
 }
 
 #tabs-top a{
@@ -45,6 +51,7 @@ body{
     text-align: center;
     text-decoration: none;
     padding-top: 12px;
+    
 } 
 
 /*========== MAIN-HOME =========*/
@@ -62,7 +69,7 @@ body{
     z-index: 500;
     width: 100%;
     height: 40px;
-    background-color: brown
+    background-color: black
 }
 
 #tabs-bottom a{
@@ -79,7 +86,7 @@ body{
 /*========== MAIN =========*/
 #main{
     margin-top: 119px;
-    background-color: chocolate;    
+
 }
 
 #content{
@@ -89,6 +96,7 @@ body{
 
 h2{
     text-align: center;
+font-style: italic;
 }
 
 
@@ -141,7 +149,9 @@ a.info-box{
     padding: 10px;
 }
 #info-box-full img{
-    width: 100%;
+    width: 50%;
+    height: 50%;
+
 }
 #info-box-full h3{
     text-align: center;
@@ -199,6 +209,7 @@ textarea{
 
 .gallery{
     padding-top: 119px;
+    width: 100%;
 }
 
 
